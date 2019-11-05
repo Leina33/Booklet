@@ -1,3 +1,35 @@
 .search-form{
-    padding-top:50px;
-}
+    padding: 50px;
+  }
+  h1{
+    font-size: 70px;
+    font-weight:bolder;
+    text-align:center;
+    text-decoration: underline;
+    font-family: 'Yeon Sung', cursive;
+    padding:50px;
+    text-shadow: 4px 4px white;
+  }
+  .label{
+    padding:18px;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  .card-text{
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  h3{
+    font-weight: bolder;
+    font-family:verdana;
+  }
+  h1{
+    border-bottom: 1px solid black;
+  }
+  #dec{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .list-group-item{
+    font-weight: bolder;
+  }
