@@ -15,15 +15,25 @@ export class ProfileService {
     this.username ='Leina33';
 
    }
-   getProfileInfo(){
-     return this.http.get("https://api.github.com/users/" + this.username + "?client_id=" + this.clientid + "&client_secrete" + this.clientsecret); 
-   }
-   getProfileRepos(){
-    return this.http.get("https://api.github.com/users/" + this.username + "/repos?client_id=" + this.clientid + "&client_secrete" + this.clientsecret); 
+//    getProfileInfo(){
+//      return this.http.get("https://api.github.com/users/" + this.username + "?client_id=" + this.clientid + "&client_secret" + this.clientsecret); 
+//    }
+//    getProfileRepos(){
+//     return this.http.get("https://api.github.com/users/" + this.username + "/repos?client_id=" + this.clientid + "&client_secret" + this.clientsecret); 
 
-   }
-   updateProfile(username:string){
-     this.username = username;
+//    }
+//    updateProfile(username:string){
+//      this.username = username;
 
-   }
+//    }
+// }
+getProfileInfo(){
+  return this.http.get("https://api.github.com/users/" + this.username + "?client_id="+ this.clientid + "&client_secret=" + this.clientsecret);
+ }
+ getProfileRepos(){
+  return this.http.get("https://api.github.com/users/" + this.username + "/repos?client_id="+ this.clientid + "&client_secret=" + this.clientsecret);
+ }
+ updateProfile(username:string){
+  this.username = username;
+ }
 }
