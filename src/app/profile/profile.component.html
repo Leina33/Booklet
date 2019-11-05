@@ -35,11 +35,10 @@
                               <h3 class="panel-title">Repos</h3> 
                            </div>
                            <div class ="panel-body" *ngFor="let repo of repos">
-                               <p>
-                                {{repo.name}} <a href ="{{repo.html_url}}" target ="_blank" class ="btn btn-sm btn-warning">view this project on Github</a> 
-                                {{repo.description}} 
-
+                               <p class= "clearfix">
+                                {{repo.name}} <a href ="{{repo.html_url}}" target ="_blank" class ="btn btn-sm btn-warning pull-right">view this project on Github</a> 
                                </p>
+                               <p>{{repo.description}}</p> 
                            </div>
                        </div>
                    </div>
