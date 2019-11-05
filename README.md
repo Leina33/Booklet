@@ -1,27 +1,39 @@
-# Booklet
+Github search Booklet
+Github Website where a person can search other programmers repos/project.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+## Author
 
-## Development server
+Dominic K. Rutto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Behaviour Driven Development(BDD)
 
-## Code scaffolding
+1 Input : Enter your username.
+2 Output: View the repos/project.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+To view the website
+.Step 1 : Clone this repo : git clone (https://github.com/Leina33/Booklet.git).
+.Step 2 : Open the repo using prefered text editor e.g Visual Studio Code or Atom .
+.Step 3 : Code through the folder using terminal.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Technologies Used
 
-## Running unit tests
+1. Angular HTML : Templates - used for creating markup pages and user interface.
+2. Custom CSS - used to style Mark Up pages/User Interface.
+3. Bootstrap library for CSS.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Support and Contact details
 
-## Running end-to-end tests
+Incase of any questions or issues please feel free to conduct me through email(dominickrutto@gmail.com)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Contributing
 
-## Further help
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+Choose a License
+MIT License
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
