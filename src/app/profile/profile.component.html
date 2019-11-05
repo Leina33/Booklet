@@ -1,6 +1,7 @@
 <form action ="" class="search-form">
    <div class ="form-group">
-   <input type ="text" class ="form-control" placeholder="search git with users name ">    
+   <input type ="text" class ="form-control" placeholder="search git with users name "
+   [[(ngModel)]]="username" name="username" (keyup)="findprofile">    
    </div> 
 </form>
 <div *ngIf="profile">
