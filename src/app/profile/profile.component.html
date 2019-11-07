@@ -43,12 +43,27 @@
                            <div class="panel-heading">
                               <h3 class="panel-title">Repos</h3> 
                            </div>
-                           <div class ="panel-body" *ngFor="let repo of repos">
+                           <!-- <div class ="panel-body" *ngFor="let repo of repos">
                                <p>
                                 {{repo.name}} <a href ="{{repo.html_url}}" target ="_blank" class ="btn btn-sm btn-warning pull-right">view this project on Github</a> 
                                </p>
                                <p>{{repo.description}}</p> 
-                           </div>
+                           </div> -->
+                           <div class="container col-sm-10card-columns">
+                            <div class="card" *ngFor="let repo of repos">
+                              <div class="card">
+                                <a href="{{repo.html_url}}" class="text-align-center" target="_blank" class="btn btn-outline-primary">View this project on github</a>
+                                <br>
+                                <br>
+                                <div class="card-header text-center"><h3 id="rname">{{repo.name}}</h3></div>
+                                <div class="card-body">
+                                <p id="dec">
+                                {{repo.description}}
+                                </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                        </div>
                    </div>
                </div>
